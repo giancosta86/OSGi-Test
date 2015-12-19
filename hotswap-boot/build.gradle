@@ -55,7 +55,11 @@ task cleanJarResources << {
     delete bundlesDir
 }
 
-project.clean.dependsOn(cleanJarResources)
+task cleanFelixCache << {
+    delete 'felix-cache'
+}
+
+project.clean.dependsOn(cleanJarResources, cleanFelixCache)
 
 task copyJarResources << {
     project.configurations.bundle.each { bundleDependency ->

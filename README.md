@@ -13,7 +13,7 @@ This application tries to combine, in a simple but useful way, several modern te
 
 * **Gradle**, to enjoy simple and elegant *build automation* and *compile-time version management*
 
-This project was created as an example for the presentation [Introduction to OSGi](http://www.slideshare.net/giancosta86/introduction-to-osgi-56290394).
+This project was created as an example for the presentation [Introduction to OSGi](https://speakerdeck.com/giancosta86/introduction-to-osgi).
 
 
 ## Using the application
@@ -57,4 +57,4 @@ which is why dedicated relationship and dependency declarations have been introd
 
 ## Further references
 
-* [Introduction to OSGi](http://www.slideshare.net/giancosta86/introduction-to-osgi-56290394), on SlideShare
+* [Introduction to OSGi](https://speakerdeck.com/giancosta86/introduction-to-osgi), on SpeakerDeck
